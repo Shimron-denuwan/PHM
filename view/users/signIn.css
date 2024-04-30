@@ -1,0 +1,30 @@
+body{
+    background-image:url("../images/formback2.jpg");
+  }
+  .title{
+        text-align:center;
+        color:rgb(0, 0, 0);
+        font-size:50px;
+    }
+    .frame{
+        background-color:rgb(223,163,109);
+    }
+    .form{
+      padding:6px 6px 6px 6px;
+      margin:0px 10px 20px 360px;
+      border:6px outset rgb(179, 179, 179);
+      border-radius:5%;
+      width:400px;
+      background:transparent;
+      backdrop-filter:blur(50px);
+    
+    }
+    .form-control{
+      background-color:rgb(238, 255, 0);
+      color:white;
+      border-radius:70px;
+    }
+    .choice{
+      background-color:black;
+      color:white;
+    }

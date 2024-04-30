@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="bmiCalculator.css">
+    <link rel="icon" type="image/x-icon" href="../images/circleFavicon.png">
+    <title>BMI Calculator|PHM</title>
+</head>
+<body>
+    <div>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#"><img src="../images/PHM1.jpg" class="img-circle" width="50px" height="50px"></a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="home.html">Categories</a></li>
+            <li class="disabled"><a href="BMIcalculator.html">BMI Calculator</a></li>
+            <li><a href="balancedDiet.html">Balanced Diet</a></li>
+            <li><a href="contact.html">Contact Advisers</a></li>
+            <li><a href="dailyExercises.html">Daily Exercises</a></li>
+            <li><a href="location.html">Fitness centers</a></li>
+            <li><a href="education.html">Knowledge</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+            
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="signIn.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="intro">
+        <div class="titleBase">
+        <h1 class="title">BMI Calculator</h1>
+        </div>
+    </div>
+    <br><br>
+    <form class="form" action="../../function/bmiResult.php" method="post">
+      <h2>To calculate your BMI please insert the following details:</h2>
+      <br>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Enter Your Weight(kg)" name="weight" required autofocus>
+                </div>
+                <br>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Enter Your Height(m)" name="height" required>
+                </div>
+                  <input type="submit" class="btn btn-success btn-block btn-lg"  name="calculate" value="calculate">
+      </form>
+    </html>
